@@ -1,0 +1,10 @@
+body{
+  background: url("../images/bg.jpg");
+  background-repeat: repeat-x repeat-y;
+}
+
+img{
+  width: 220px;
+  border: 10px solid #000000;
+}
+
