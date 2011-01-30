@@ -33,11 +33,14 @@
         $("#linkedin").hide();
         $("#projects").hide();
         $("#webs").hide();
+        $("#ctact").hide();
         
         $(".tweets").click(function(){$("#twitter").slideToggle("slow");});
         $(".fbs").click(function(){$("#fb").slideToggle("slow");});
         $(".linkdin").click(function(){$("#linkedin").slideToggle("slow");});
         $(".projs").click(function(){$("#projects").slideToggle("slow");});
+        $(".sink").click(function(){$("#webs").slideToggle("slow");});
+        $(".contact").click(function(){$("#ctact").slideToggle("slow");});
 
 
         $(".tweet").tweet({
@@ -75,12 +78,12 @@
     <div class="nav">
     <nav>
       <ul>
-      <li><a class="tweets" href="#">Twitter</a></li>
-      <li><a class="fbs" href="#">Facebook</a></li>
+      <li><a class="tweets"  href="#">Twitter</a></li>
+      <li><a class="fbs"     href="#">Facebook</a></li>
       <li><a class="linkdin" href="#">Linkedin</a></li>
-      <li><a class="projs" href="#">Projects</a></li>
-      <li><a href="sink">Web Presence</a></li>
-      <li><a href="contact">Contact</a></li>
+      <li><a class="projs"   href="#">Projects</a></li>
+      <li><a class="sink"    href="#">Web Presence</a></li>
+      <li><a class="contact" href="#">Contact</a></li>
       </ul>
     </nav>
     </div>
@@ -91,17 +94,17 @@
         <h1 class="title">Tweeters Gonna Tweet</h1>
         <div class="clear"></div>
       </div>
-      <div id="fb" class="facebook">
+      <div id="fb" class="cards">
         <h1 class="title">The Facebooks</h1>
         <div class="clear"></div>
         <a href="http://www.facebook.com/JAH2488" target="_TOP" title="Justin Herrick"><img src="http://badge.facebook.com/badge/290400813.506.997689754.png" width="550" height="84" style="border: 0px;" /></a><!-- Facebook Badge END -->
       </div>
-      <div id="linkedin" class="linkd">
+      <div id="linkedin" class="cards">
         <h1 class="title">I am LinkedIn (Honestly, I'm not a fan)</h1>
         <div class="clear"></div>
         <a class="linkedin-profileinsider-popup" href="http://www.linkedin.com/in/jah2488">This is me and my Linkedin page with a weird (yet cool) pop up widget.</a>
       </div>
-      <div id="projects" class="pjs">
+      <div id="projects" class="cards">
         <h1 class="title">No Projects Currently</h1>
         <div class="clear"></div>
         <p class="quiet">Wanna help fix that? Drop me a line. <a href="https://github.com/jah2488">-(Obligitory Link to Github)</a></p>
@@ -110,7 +113,12 @@
         <h1 class="title">All The Places You Can Find Me On The Web.</h1>
         <div class="clear"></div>        
       </div>
-      
+      <div id="ctact" class="cards">
+        <h1 class="title">If you still are wondering how to reach me. This is for you.</h1>
+        <div class="clear"></div>
+        <h4 class="quiet">contact@justinherrick.com</h1>
+        <h4 class="quiet">(239) 244 - 1559</h1>
+      </div>
     </div>  
   
   

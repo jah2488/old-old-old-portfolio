@@ -44,15 +44,11 @@ ul, li{
   padding:10px;
 }
 
-.facebook{
+.cards{
     margin: 5px;
     padding: 20px 1px 1px;
 }
 
-.linkd{
-    margin: 5px;
-    padding: 20px 1px 1px;
-}
 
 #nav_image {
     -webkit-border-radius: 10px;
