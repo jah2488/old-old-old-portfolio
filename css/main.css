@@ -62,12 +62,18 @@ ul, li{
 
 #nav_image:hover {
   -moz-box-shadow: 2px 2px 9px #136b99;
+  -webkit-box-shadow: 2px 2px 9px #136b99;
+  box-shadow: 2px 2px 9px #136b99;
+
 }
 
 .container {
     -webkit-border-radius: 5px 5px 80px 5px;
     -moz-border-radius: 5px 5px 80px 5px;
     -moz-box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+    -webkit-box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+    box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+
     background-color:#FFF;
     /*background-image: url("../images/parch.png");*/
     margin: 175px auto 0px; 
@@ -80,6 +86,9 @@ ul, li{
     -webkit-border-radius: 5px 5px 80px 5px;
     -moz-border-radius: 5px 5px 80px 5px;
     -moz-box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+    -webkit-box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+    box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
+
     background-color: #FFFFFF;
     height: auto;
     margin: 15px auto;
