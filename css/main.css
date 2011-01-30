@@ -25,7 +25,7 @@ a img,img{
 a{
 text-decoration:none;
 font-weight:bold;
-color:#038ad0;
+color:#3fb9f8; /* slightly darker -- Original color #038ad0;*/
 }
 
 a:hover{
@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{
 ul, li{
   list-style:none;
   list-style-type:none;
-  margin: 0px 0px 10px 0px
+  margin: 0px 0px 10px 0px;
   padding:10px;
 }
 
