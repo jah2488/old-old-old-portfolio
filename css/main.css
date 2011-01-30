@@ -82,7 +82,7 @@ ul, li{
     -moz-box-shadow: 0 3px 7px rgba(3, 2, 2, 0.4);
     background-color: #FFFFFF;
     height: auto;
-    margin: 15px 110px;
+    margin: 15px auto;
     padding: 0 40px 12px 20px;
     width: 670px;
 }
